@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.ssh-launcher"
+          path="/org/gnome/shell/extensions/ssh-launcher/">
+    <key name="terminal-command" type="s">
+      <default>'gnome-terminal -- %s'</default>
+      <summary>Comando de terminal</summary>
+      <description>Plantilla para abrir la terminal. %s se reemplaza por el comando ssh (argumentos separados); %S por el comando ssh como una sola cadena.</description>
+    </key>
+    <key name="show-ssh-config" type="b">
+      <default>true</default>
+      <summary>Mostrar hosts de ~/.ssh/config</summary>
+    </key>
+    <key name="custom-hosts" type="as">
+      <default>[]</default>
+      <summary>Hosts propios</summary>
+      <description>Lista de entradas con formato "Nombre|argumentos de ssh", p. ej. "Servidor web|admin@10.0.0.5 -p 2222".</description>
+    </key>
+  </schema>
+</schemalist>

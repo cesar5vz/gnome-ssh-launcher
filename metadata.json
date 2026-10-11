@@ -1,0 +1,9 @@
+{
+  "uuid": "ssh-launcher@beto",
+  "name": "SSH Launcher",
+  "description": "Lanzador de conexiones SSH desde la barra superior. Lee los hosts de ~/.ssh/config y permite agregar hosts propios.",
+  "shell-version": ["46", "47", "48", "49"],
+  "settings-schema": "org.gnome.shell.extensions.ssh-launcher",
+  "gettext-domain": "ssh-launcher",
+  "version": 2
+}
